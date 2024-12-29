@@ -16,7 +16,7 @@
     "LECTURE_AUTO_STATUS":
     {
       "description":"le bot lira tous les status automatiquement (oui pour activer et non pour désactiver)",
-      "value":"oui",
+      "value":"non",
       "required":false
     }, "TELECHARGER_AUTO_STATUS":
     {
@@ -50,7 +50,7 @@
     "MODE_PUBLIC":
     {
       "description":"oui pour le mode public ou non pour le mode privé(Dans ce vous seul  utiliserez le bot)",
-      "value":"oui",
+      "value":"non",
       "required":false
     }
 	,
@@ -65,13 +65,13 @@
 	  ,
     "ETAT":{
 		  "description":"marquez votre présence : 1 pour signaler que vous êtes en ligne même si vous ne l'êtes pas . 2 pour dire que vous êtes entrain d écrire un message. 3 pour signaler que vous êtes entrain de d enregistrer un audio . ou laissez le champs  vide pour signaler votre état réel.  ",
-		  "value":"1",
+		  "value":"",
 		  "required": false
 	  },
     "SESSION_ID":
     {
       "description":"veuillez renseigner votre id de session",   
-      "value":"",
+      "value":"Zokou-MD-WHATSAPP-BOT;;;=>eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiR0xncmFmdG8wZ0FOVEVuRUJMSTJLQVJzRVd6MmpXbXFZRTE3bDBZaTBHdz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoia3AweVIzdHZKeStPMm9CNk9oVW8zbThOSmhmZURjNUpjZnNycXMzdzBoST0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJXSGpaZDVSc25yNHRXZGNHaHUzMWRhc3gvbDg4emtQVjNSUjFDajJtR25VPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJzN2M0bGtickFwcm16dHQwdUp5NDZHT0NQOEdFaldnd2U5bUVOSDVFcVc4PSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ik1JbEgvU2pjeC9NeGsyejlVdXFrQmZQRDdMa21jUGx0emJSU3NHNFFSR1k9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InZzbFlFZ0czUzhQb2l6cGt3andDL2NMSStQOHlnTkdGaDM2M2M5YlUxUTA9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoic043a3d6V1hPTzhkVUZ2MUhCYTF2VUFmR3FJQm5qR2JLREYvZUttT0hFbz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoib2JtQzRvMk9WMzdTUkRIQlVIUlc1Q0IwYnZSRDBaTGVyVjl6bDJNTi9tMD0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Img2SmVlQTNpc2h3Q0VHM1NKZndldzRsc1FHMzVlaG5FUUZZeE5mSzF4MHdmUFR4Q3FXK29LVXkwZS8yYVlmd1JRSDYvQUZUb2pWMldURmxkWTBNemlBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjE2LCJhZHZTZWNyZXRLZXkiOiJOR3N0ZGp6Wjd5NFVqQWtDRzVWd0FhMmJkRFZiSHVGRXpGZ1luVWlwanJBPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJtaElPY3dtQVFjMkRNQjdQVGt3c3d3IiwicGhvbmVJZCI6ImY5MTAzNTJhLWU1MWYtNDAwNi1hZTMxLTgxZDQ5MmExYmEwZSIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJXclE1bmRWK2tRczNLZWlzVFFWY3BuWGdNWWc9In0sInJlZ2lzdGVyZWQiOmZhbHNlLCJiYWNrdXBUb2tlbiI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ik5KTlNlbmF0OUJxdkVRTXJvNDVVQ3NjcFV5QT0ifSwicmVnaXN0cmF0aW9uIjp7fSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ08zRmpzRUZFTEMzeExzR0dBTWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6IkZJYkU1YlltbXBxQzRTdEx0N2kwY1JBd0pMeW5INnNqTzZ6UXltTmlId0U9IiwiYWNjb3VudFNpZ25hdHVyZSI6IllkWjg4NVE3cG1KRHlpbDVFOHJkYWpGS2wxS1cwQjQ5bjN2TXBUTHdWL3JQVTVEMDF3QkNXbCt3eWl5OGxvbW5JWWtEYm9HQ25KKytmeWp2V3VUUEFBPT0iLCJkZXZpY2VTaWduYXR1cmUiOiI3U3VtU0tJNmJJL0V0QkdZdGsyT05WT0JxTG5zVDAyUHlXYUN2UGhuNzAxZFErQmZhaUpRWk9FN3hDNnpETU9lOXkyaGhhamRGbkZTY0NrMmpOa1hqUT09In0sIm1lIjp7ImlkIjoiMjQyMDY0MDEwMTI1OjI4QHMud2hhdHNhcHAubmV0IiwibmFtZSI6IuqngeCmlFJvbGNl44O7Sm9jcmlzc2XgppTgp6Pqp4LwlqOYIiwibGlkIjoiMjE2NDE5MTA3MTA3MDU3OjI4QGxpZCJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiIyNDIwNjQwMTAxMjU6MjhAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCUlNHeE9XMkpwcWFndUVyUzdlNHRIRVFNQ1M4cHgrckl6dXMwTXBqWWg4QiJ9fV0sInBsYXRmb3JtIjoic21iYSIsInJvdXRpbmdJbmZvIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQ0JJSURRPT0ifSwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzM1NDY1OTA4LCJsYXN0UHJvcEhhc2giOiJJWG9EcCJ9",
       "required":true
       
     },
@@ -80,14 +80,14 @@
     
     "description": "Votre nom",
     "required": false,
-    "value": "Djalega++"
+    "value": "ঔRolce・Jocrisseঔৣ"
   },
     "NUMERO_OWNER":
   {
     
     "description": "Votre numero de telephone; il doit etre dans le format ID+numero",
     "required":false,
-    "value": "22891733300"
+    "value": "242064010125"
   },
     
 
@@ -95,7 +95,7 @@
   {
     "description": "il s'agit de nombre d'avertissement limite",
     "required": false,
-    "value": "3"
+    "value": "10"
   },
   "STARTING_BOT_MESSAGE":
   {
@@ -107,7 +107,7 @@
   {
     "description": "Mettez oui si vous voulez que le contenue des message en vue unique vous sois envoyez en pv",
     "required": false,
-    "value": "non"
+    "value": "oui"
   },
   "PM_CHATBOT":
   {
